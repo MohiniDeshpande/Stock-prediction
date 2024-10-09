@@ -8,6 +8,7 @@ The predictive model incorporates a Transformer architecture and is trained to c
 ## Input Features:
 
 Historical Stock Data: The model incorporates various stock metrics, including Open, High, Low, Close, and Volume, as well as sentiment scores generated from news headlines using FinBERT.
+
 Sentiment Analysis: FinBERT processes recent news headlines to determine sentiment polarity, yielding a sentiment score that reflects the overall market sentiment towards the stock.
 
 1. Transformer Architecture:
@@ -24,6 +25,7 @@ Sentiment Analysis: FinBERT processes recent news headlines to determine sentime
 
 ## Important Notes
 API Key: To run this code, you must obtain an Alpha Vantage API key. Replace the placeholder API key in data.py with your own.
+
 Limitations: Please note that the Alpha Vantage API allows only 25 requests per day for free accounts, making this code unsuitable for large-scale applications.
 
 ## How to Run
